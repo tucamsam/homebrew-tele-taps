@@ -6,7 +6,7 @@ class Forge < Formula
     desc "forge"
     homepage "https://github.com/TeleTrackingTechnologies/forge"
     url "https://github.com/kepoling/forge.git",
-      :branch => "configurable-path-plugin",
+      :branch => "configurable-plugin-path",
       :using => :git
     version "1.0.0"
   
