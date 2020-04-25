@@ -19,7 +19,7 @@ class TeleForge < Formula
       FileUtils.cp_r('_internal_plugins/manage_plugins', '/usr/local/etc/forge/plugins')
       Dir.chdir ".."
       venv = virtualenv_create(libexec, "python3")
-      venv.pip_install_and_link('.')
+      venv.pip_install_and_link buildpath
       virtualenv_install_with_resources
     end
   
