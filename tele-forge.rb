@@ -1,6 +1,6 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://www.rubydoc.info/github/Homebrew/brew/master/Formula
-class Forge < Formula
+class TeleForge < Formula
     include Language::Python::Virtualenv
   
     desc "forge"
